@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+    color: white;
+    /* background-color: black; */
+    background-color: #121212;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+li{
+    list-style: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+a{
+    padding: 10px;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(153, 255, 0);
+}
+#logo-header{
+    display: flex;
+    align-items: center;
+}
+#img-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+}
+#spotfy-logo{
+    font-size: 25px;
+    line-height: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#publi{
+    display: flex;
+    /* background-image: linear-gradient(to bottom, rgb(185, 10, 156) ,black 90% ); */
+    /* background: linear-gradient(to top, black 60%, rgba(185,10,156) 120%); */
+    background: linear-gradient(to top, #121212 60%, rgba(185,10,156) 120%);
+    padding: 50px;
+    justify-content: center;
+    /* margin: auto; */
+}
+#promo{
+    width: 700px;
+    margin-right: 100px;
+}
+#img-background{
+    width: 300px;
+}
+h1{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    /* max-width: 600px; */
+}
+#box-alert{
+    display: flex;
+    height: 15px;
+    width: 300px;
+    background-color: rgb(60, 60, 61);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px;
+}
+span{
+    font-family: sans-serif;
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+#icon-blue-bell{
+    width: 20px;
+    margin-right: 10px;
+}
+#buttons-promo-div{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.buttons-promo{
+    height: 50px;
+    /* width: 300px; */
+    /* background-color: rgb(182, 77, 164); */
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+button:hover{
+    transition: 300ms;
+    scale: 1.1;
+    cursor: pointer;
+}
+.pink{
+    background-color: rgb(182, 77, 164);
+    width: 300px;
+    border: none;
+}
+.black{
+    background-color: black;
+    width: 200px;
+    color: white;
+    /* border-color: white; */
+    border: 1px solid white;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#table{
+    /* background-color: black; */
+    text-align: center;
+    padding-top: 50px;
+    max-width: 700px;
+    margin: auto;
+}
+#th-top{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    /* border-top: 1px solid white; */
+    /* margin-bottom: 20px; */
+    /* background-color: blue; */
+}
+/* .bg-gradiente{
+    background: linear-gradient(rgba(255, 210, 215, 0.08) 20%, rgba(255, 210, 215, 0) 90%);
+    background: linear-gradient(to top, #121212 60%, rgba(185,10,156) 120%);
+    background: linear-gradient(rgba(255, 210, 215, 0.08) 20%, rgba(255, 210, 215, 0) 90%);
+    background-color:  linear-gradient(rgba(255, 210, 215, 0.08) 20%, rgba(255, 210, 215, 0) 90%);
+} */
+h2{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.img-logo-table{
+    width: 20px;
+    margin-right: 2px;
+}
+.img-table{
+    width: 30px;
+}
+h4{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+table{
+    /* margin-top: 300px; */
+    display: table;
+    /* background-color: red; */
+    background: linear-gradient(rgba(255, 210, 215, 0.08) 5%, rgba(255, 210, 215, 0) 95%);
+    margin: auto;
+    max-width: 500px;
+    font-size: 15px ;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+tr:hover{
+    background-color: rgba(255, 210, 215, 0.211)
+}
+/* thead{
+    margin-top: 300px;
+} */
+th{
+    border-bottom: 1px solid white;
+    text-align: left;
+    max-width: 200px;
+    padding: 15px;
+}
+td{
+    border-bottom: 1px solid white;
+    max-width: 300px;
+    padding: 15px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#plans{
+    text-align: center;
+    /* background-color: red; */
+    padding-top: 50px;
+    max-width: 800px;
+    margin: auto;
+}
+#div-pay-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.pay-cards-img{
+    width: 35px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#div-resources{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#ul-plans{
+    text-align: left;
+}
+.li-plans{
+    height: 20px;
+    margin: 0;
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.img-li{
+    /* background-color: white; */
+    /* background-size: 10px; */
+    width: 15px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#grid-plans{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 200px;
+    max-width: 1000px;
+
+}
+
+.cards{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(255, 210, 215, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.box-free{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    transform: translate(-10px, -2px);
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.th-top2{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.img-logo-table2{
+    width: 18px;
+    margin-right: 5px;
+}
+.top-card{
+    margin-left: 20px;
+}
+.top-card > h3{
+    margin-top: -10px;
+    font-size: 25px;
+}
+.top-card > p{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.p-gray{
+    color: gray;
+    font-weight: 400;
+}
+
+.bottom-card{
+    margin-left: 20px;
+    text-align: center;
+}
+hr{
+    /* background-color: gray; */
+    width: 90%;
+}
+.list-card{
+    margin-top: 20px;
+}
+.list-card > li{
+    font-size: 13px;
+    font-weight: 400;
+    list-style: disc;
+    text-align: left;
+}
+
+.button-card{
+    border-radius: 20px;
+    margin-left: -20px;
+    height: 35px;
+    width: 90%;
+    border: none;
+    margin-top: 15px;
+}
+.button-card:hover{
+    transition: 300ms;
+    scale: 1.1;
+    cursor: pointer;
+}
+.footer-card{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 80%;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: gray;
+
+}
+
+.pink-bg-card{
+    background-color: rgb(255, 210, 215);
+}
+.pink-font-card{
+    color: rgb(255, 210, 215) ;
+}
+
+.purple-bg-card{
+    background-color: rgb(196, 177, 212);
+}
+.purple-font-card{
+    color: rgb(196, 177, 212);
+}
+
+.yellow-bg-card{
+    background-color: rgb(255, 200, 98);
+}
+.yellow-font-card{
+    color: rgb(255, 200, 98);
+}
+
+.blue-bg-card{
+    background-color: rgb(165, 187, 209);
+}
+.blue-font-card{
+    color: rgb(165, 187, 209);
+}
