@@ -14,20 +14,23 @@
     }
     
     li{
-        font-size:8px;
+        font-size:10px;
     }
     #img-logo{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-right: 2px;
     }
     #spotfy-logo{
-        font-size: 13px;
+        font-size: 20px;
         margin-left: 2px;
     }
     #promo{
         width: 400px;
-        margin-left: 50px;
+        /* margin-left: 0px; */
+    }
+    #box-alert{
+        width: 100%;
     }
     #buttons-promo-div{
         display: flex;
@@ -39,5 +42,29 @@
     }
     .li-plans{
         height: 50px;
+    }
+    #first-nav{
+        display: none;
+    }
+    #second-nav{
+        /* display: none; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border: solid 5px black;
+        border-radius: 5px;
+        background-color: white;
+    }
+    #second-nav > img {
+        text-align: center;
+        width: 35px;
+        height: 35px;
+    }
+    #second-nav:hover{
+        transition: 300ms;
+        scale: 1.2;
+        cursor: pointer;
     }
 }
