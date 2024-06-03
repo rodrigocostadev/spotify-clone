@@ -93,6 +93,9 @@ span{
     width: 20px;
     margin-right: 10px;
 }
+button{
+    color: black;
+}
 #buttons-promo-div{
     margin-top: 30px;
     display: flex;

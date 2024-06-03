@@ -2,9 +2,6 @@
     #publi{
         flex-wrap: wrap-reverse;
     }
-    #promo{
-        margin-left: 50px;
-    }
 }
 
 @media ( max-width: 750px) {
@@ -12,12 +9,12 @@
         background-color: black;
         color: white;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 15px;
     }
     
     li{
-        font-size: 10px;
+        font-size:8px;
     }
     #img-logo{
         width: 20px;
@@ -29,12 +26,18 @@
         margin-left: 2px;
     }
     #promo{
-        width: 430px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    #buttons-promo-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     #div-resources{
         gap: 5px;
     }
     .li-plans{
-        height: 45px;
+        height: 50px;
     }
 }
