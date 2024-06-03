@@ -49,6 +49,8 @@ a:hover{
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 #publi{
     display: flex;
+    /* flex-wrap: wrap-reverse; */
+    gap: 50px;
     /* background-image: linear-gradient(to bottom, rgb(185, 10, 156) ,black 90% ); */
     /* background: linear-gradient(to top, black 60%, rgba(185,10,156) 120%); */
     background: linear-gradient(to top, #121212 60%, rgba(185,10,156) 120%);
@@ -58,7 +60,6 @@ a:hover{
 }
 #promo{
     width: 700px;
-    margin-right: 100px;
 }
 #img-background{
     width: 300px;

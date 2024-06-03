@@ -1,0 +1,37 @@
+@media ( max-width: 900px) {
+    #publi{
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media ( max-width: 750px) {
+    header{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    
+    li{
+        font-size: 10px;
+    }
+    #img-logo{
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+    }
+    #spotfy-logo{
+        font-size: 13px;
+        margin-left: 2px;
+    }
+    #promo{
+        width: 430px;
+    }
+    #div-resources{
+        gap: 5px;
+    }
+    .li-plans{
+        height: 45px;
+    }
+}
