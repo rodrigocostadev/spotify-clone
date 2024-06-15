@@ -67,4 +67,8 @@
         scale: 1.2;
         cursor: pointer;
     }
+
+    #ask{
+        max-width: 95%;
+    }
 }
