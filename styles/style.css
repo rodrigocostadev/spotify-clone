@@ -34,7 +34,7 @@ a:hover{
     cursor: pointer;
     color: rgb(153, 255, 0);
 }
-#logo-header{
+.logo-header{
     display: flex;
     align-items: center;
 }
@@ -434,3 +434,33 @@ hr{
     border-color: black;
     border-style: solid;
 }
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+footer{
+    background-color: black;
+    padding-top: 100px;
+}
+.footer-list{
+    display: flex;
+}
+.icons{
+    display: flex;
+}
+ .icons > img {
+    width: 30px;
+ }
+
+ .mini-img{
+    width: 20px;
+    background-color: white;
+    border-radius: 10px;
+ }
+
+.bottom{
+    display: flex;
+}
+/* .bottom > ul{
+    display: flex;
+} */
