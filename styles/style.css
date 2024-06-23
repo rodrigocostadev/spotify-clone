@@ -510,7 +510,8 @@ ul > p {
 .bottom{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: space-around;
     color: gray;
     /* background-color: yellow; */

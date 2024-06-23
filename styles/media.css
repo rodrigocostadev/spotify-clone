@@ -10,6 +10,8 @@
     }
     .bottom{
         position: relative;
+        justify-content: space-between;
+        margin-left: -60px;
     }
 }
 
@@ -85,9 +87,11 @@
         font-size: 10px;
     }
     .bottom > ul {
-        flex-direction: column;
+        /* flex-direction: column; */
+        gap: 5px;
     }
     .div-bottom > p {
         font-size: 10px;
     }
+    
 }
