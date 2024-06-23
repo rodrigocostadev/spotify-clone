@@ -16,10 +16,13 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+#first-nav{
     width: 500px;
 }
 #second-nav{
     display: none;
+    width: 500px;
 }
 li{
     list-style: none;
@@ -32,7 +35,7 @@ a{
 }
 a:hover{
     cursor: pointer;
-    color: rgb(153, 255, 0);
+    color: rgb(5, 216, 5);
 }
 .logo-header{
     display: flex;
@@ -440,27 +443,87 @@ hr{
 
 footer{
     background-color: black;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.nav-footer{
+    display: flex;
+    align-items: start;
+    /* justify-content: space-around; */
+    /* background-color: gray; */
+    /* height: 400px; */
+    position: relative;
+}
+.nav-footer > .logo-header{
+    margin-top: 25px;
 }
 .footer-list{
     display: flex;
+    /* flex-wrap: wrap; */
+}
+.footer-list > ul{
+    width: 120px;
+}
+.footer-list > ul > li {
+    margin-top: 10px;
+    /* background-color: blue; */
+}
+ul > p {
+    color: gray;
+    font-size: 13px;
+    font-weight: bold;
 }
 .icons{
+    margin-top: 30px;
     display: flex;
+    /* background-color: greenyellow; */
+    gap: 30px;
 }
- .icons > img {
+ .icons > a > img {
     width: 30px;
+ }
+ .icons > a > img:hover{
+    transition: 300ms;
+    scale: 1.2;
+ }
+
+ .country{
+    justify-content: flex-end;
+    margin-right: 20px;
+    /* padding: 20px; */
+    height: 50px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    min-width: 300px;
+    color: gray;
+    /* background-color: aqua; */
  }
 
  .mini-img{
     width: 20px;
+    height: 20px;
     background-color: white;
     border-radius: 10px;
  }
 
 .bottom{
     display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    color: gray;
+    /* background-color: yellow; */
 }
-/* .bottom > ul{
+.bottom > ul {
     display: flex;
-} */
+    flex-wrap: wrap;
+    /* background-color: red; */
+    gap: 30px;
+}
+.div-bottom{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 5px;
+}

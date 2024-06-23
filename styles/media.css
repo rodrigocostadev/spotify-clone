@@ -2,6 +2,15 @@
     #publi{
         flex-wrap: wrap-reverse;
     }
+    .nav-footer{
+        flex-direction: column;        
+    }
+    .footer-list{
+        flex-wrap: wrap;
+    }
+    .bottom{
+        position: relative;
+    }
 }
 
 @media ( max-width: 750px) {
@@ -70,5 +79,15 @@
 
     #ask{
         max-width: 95%;
+    }
+    .country > p {
+        padding: 20px;
+        font-size: 10px;
+    }
+    .bottom > ul {
+        flex-direction: column;
+    }
+    .div-bottom > p {
+        font-size: 10px;
     }
 }
